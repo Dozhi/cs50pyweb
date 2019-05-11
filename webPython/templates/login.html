@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block body %}
+	
+		<form action="/register" method="post">
+		<input type="text" name="name" placeholder="name">
+
+		<select name="gender">
+			<option disabled selected value>gender</option>
+			<option>male</option>
+			<option>female</option>
+		</select>
+
+		<input type="submit" name="register">
+	</form>
+	
+{% endblock %}
+
+
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login w</title>
+</head>
+<body>
+	<form action="/register" method="post">
+		<input type="text" name="name" placeholder="name">
+
+		<select name="gender">
+			<option disabled selected value>gender</option>
+			<option>male</option>
+			<option>female</option>
+		</select>
+
+		<input type="submit" name="register">
+	</form>
+</body>
+</html>
+
+-->
