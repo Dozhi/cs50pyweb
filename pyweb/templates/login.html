@@ -1,0 +1,25 @@
+<!doctype html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+</head>
+<body>
+	<form action="/register" method="post">
+		<input type="text" name="name" placeholder="name">
+		<input type="password" name="password" placeholder="password">
+		<select name="gender">
+			<option disabled selected value="person">person</option>
+			<option value="male">male</option>
+			<option value="female">female</option>
+		</select>
+		<input type="submit" name="submit">
+	</form>
+
+	<h1>{{name}}</h1>
+	<h1>{{password}}</h1>
+	<h1>{{gender}}</h1>
+
+</body>
+</html>
